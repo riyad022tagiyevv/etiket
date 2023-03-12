@@ -9,9 +9,9 @@ import logging
 # Burayı gurcalama
 # 
 # 
-#api_id = 24647583
-#api_hash = "f41a6516ad6fba3b43d9cccd1f2c551c"
-#bot_token = "6116997441:AAFF9bqrIam6UzGCi6BHoGV6U4gax0KtSRE"
+#api_id = 16102648
+#api_hash = "378a73e340eb634cf67c8c42bafa9f37"
+#bot_token = "6019015118:AAFLD0oIHeV47_7ceed-cWUVh17baqmfWPI"
 
 # Telethon 
 #client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
