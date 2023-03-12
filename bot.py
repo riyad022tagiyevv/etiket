@@ -34,28 +34,28 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 
 DATABASE_URL = "mongodb+srv://matesamusic:matesamusic@cluster0.gvs02.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-BOT_USERNAME = "VTaggerBot"
-LOG_CHANNEL = -1001757359371
-GROUP_SUPPORT = "developersohbet"
+BOT_USERNAME = "ModernTagBot"
+LOG_CHANNEL = -1001823689827
+GROUP_SUPPORT = "OldHumans"
 GONDERME_TURU = os.environ.get("GONDERME_TURU", False) # Botunuzun yanıtladığınız mesajı gönderme türü. Eğer direkt iletmek isterseniz False, kopyasını göndermek isterseniz True olarak ayarlayın.
-OWNER_ID = "5237976814"
+OWNER_ID = "5809546648"
 LANGAUGE = "TR"
 
-api_id = 2583
-api_hash = "3d9cccd1f2c551c"
-bot_token = ":zGCi6BHoGV6U4gax0KtSRE"
+api_id = 16102648
+api_hash = "378a73e340eb634cf67c8c42bafa9f37"
+bot_token = ":6019015118:AAFLD0oIHeV47_7ceed-cWUVh17baqmfWPI"
 
-USERNAME = "EtikettagerBot"
-group = -10019371
+USERNAME = "ModerntagBot"
+group = -1001837336703
 startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
 komutlar = "Komutlar:\n\n/utag -text- Kullanıcıları 5'li etiketlerim.\n/atag -text- Yöneticileri etiketlerim.\n/tektag Üyeleri tek tek etiketlerim.\n/etag - Üyeleri emoji ile etiketlerim.\n/soztag - Üyeleri sözler ile etiketlerim.\n/gisimtag - Üyeleri güzel isimlerle etiketlerim.\n/cancel - Etiket işlemini iptal ederim .\n\nYalnızca yöneticiler bu komutları kullanabilir."
 qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /help yazın."
-sahib = "SamilBen"
-support = "developersohbet"
-sahib = "samilben"
-ozel_list = 5237976814
+sahib = "RiyadAndMe"
+support = "OldHumans"
+sahib = "RiyadAndMe"
+ozel_list = 5809546648
 DATABASE_URL = "mongodb+srv://@cluster0.gvs02.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-OWNER_ID = 5237976814 
+OWNER_ID = 5809546648 
 
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
@@ -77,14 +77,14 @@ rxyzdev_initT = {}
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def info(event):
-  await event.reply("**Merhaba Benim Ve Sahibim Hakkında Bilgi\n\nPython: 3.8.2\nKütüphanem: Telethon\n\nSahibim:  Gruplarınızda Üyeleri Etiketlemek için Yaratılmışım**",
+  await event.reply("**Salam Menim Ve Sahibim Hakkında Bilgi\n\nPython: 3.8.2\nKütüphanem: Telethon\n\nSahibim:  Gruplarınızda Üyeleri Etiketlemek için Yaratılmışım**",
                     buttons=(
                       [
-                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/EtikeettagerBot?startgroup=a')
+                       Button.url('Meni Qrubuna At ➕', 'https://t.me/ModernTagBot?startgroup=a')
                       ],
                       [
-                       Button.url('📢 Kanal', 'https://t.me/developersohbet'),
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/samilben')
+                       Button.url('📢 Kanal', 'https://t.me/NewModernBlog),
+                       Button.url('🇹🇷 Sahibim', 'https://t.me/RiyadAndMe')
                       ],
                      
                     ),
@@ -104,17 +104,17 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await client.send_message(-1001757359371, f"ℹ️ **Yeni Kullanıcı -** {ad}")
+     await client.send_message(-1001823689827, f"ℹ️ **Yeni Kullanıcı -** {ad}")
      return await event.reply(f"**Merhaba \nGrubunuzdakı Üyeleri Etiketleye Bilirim\nKomutlar için Komutlar Düğmesine Tıklaya Bilirsiz**", buttons=(
                       [
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/EtikettagerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/Samilbots')
+                       Button.url('Meni Qrubuna At', 'https://t.me/ModerntagBot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/NewModernBlog')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/SamilBen')
+                       Button.url('Sahibim', 'https://t.me/RiyadAndMe')
                       ],
                     ),
                     link_preview=False)
@@ -128,16 +128,16 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Merhaba Ben @EtikettagerBot\nGrubunuzdakı Üyeleri Etiketleye Bilirim\nKomutlar için Komutlar Düğmesine Tıklaya Bilirsiz**", buttons=(
+     await event.edit(f"**Salam Men @ModernTagBot\nQrubunuzdakı Üyeleri Etiketleye Bilirim\nKomutlar için Komutlar Düğmesine Tıklaya Bilirsiz**", buttons=(
                       [
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/EtikettagerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/Samilbots')
+                       Button.url('Beni Grubuna Ekle', 'https://t.me/ModernTagBot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/NewModernBlog')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/SamilBen')
+                       Button.url('Sahibim', 'https://t.me/RiyadAndMe')
                       ],
                     ),
                     link_preview=False)
