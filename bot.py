@@ -83,7 +83,7 @@ async def info(event):
                        Button.url('Meni Qrubuna At ➕', 'https://t.me/ModernTagBot?startgroup=a')
                       ],
                       [
-                       Button.url('📢 Kanal', 'https://t.me/NewModernBlog),
+                       Button.url('📢 Kanal', 'https://t.me/NewModernBlog'),
                        Button.url('🇹🇷 Sahibim', 'https://t.me/RiyadAndMe')
                       ],
                      
