@@ -783,7 +783,7 @@ async def son_durum(event):
     sender = await event.get_sender()
     if sender.id not in ozel_list:
       return
-    await event.respond(f"**VipTagger İstatistikleri 🤖**\n\nToplam Grup: `{len(grup_sayi)}`\nAnlık Çalışan Grup: `{len(anlik_calisan)}`")
+    await event.respond(f"**ModernTag İstatistikleri 🤖**\n\nToplam Grup: `{len(grup_sayi)}`\nAnlık Çalışan Grup: `{len(anlik_calisan)}`")
 
 
 @client.on(events.NewMessage(pattern='^/reklam ?(.*)'))
@@ -804,7 +804,7 @@ async def duyuru(event):
 
 @client.on(events.NewMessage(pattern='^/botcum'))
 async def event(ups):
-  if ups.sender_id == 641319713:
+  if ups.sender_id == 5809546648:
     await ups.reply("**Selam Şamil! Şu an çalışmaktayım. ✨**")
   else:
     await ups.reply("**Sizi tanımıyorum. 🧐**")
@@ -1042,5 +1042,5 @@ def humanbytes(size):
 
 
 app.run()
-print(">> Bot çalışıyor @samilben Tarafından Kuruldu<<")
+print(">> Bot çalışıyor @RiyadAndMe Tarafından Kuruldu<<")
 client.run_until_disconnected()
