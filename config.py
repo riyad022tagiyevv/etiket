@@ -16,15 +16,15 @@ import logging
 # Telethon 
 #client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 #
-#USERNAME = "VTaggerBot"
-group = -1001757359371
-startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
+#USERNAME = "ModernTagBot"
+group = -1001823689827
+startmesaj = "**Men qrubunuzdaki üyeleri etiketleyebilen bir botum. Meni Qrubunuza alıf çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
 komutlar = "Komutlar:\n\n/utag -text- Kullanıcıları 5'li etiketlerim.\n/atag -text- Yöneticileri etiketlerim.\n/tektag Üyeleri tek tek etiketlerim.\n/etag - Üyeleri emoji ile etiketlerim.\n/soztag - Üyeleri sözler ile etiketlerim.\n/gisimtag - Üyeleri güzel isimlerle etiketlerim.\n/cancel - Etiket işlemini iptal ederim .\n\nYalnızca yöneticiler bu komutları kullanabilir."
 qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /help yazın."
-sahib = "SamilBen"
-support = "developersohbet"
-sahib = "samilben"
-ozel_list = 5237976814
+sahib = "RiyadAndMe"
+support = "OldHumans"
+sahib = "RiyadAndMe"
+ozel_list = 5809546648
 #
 app = Client("GUNC",
              api_id=api_id,
