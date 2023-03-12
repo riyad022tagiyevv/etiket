@@ -47,7 +47,7 @@ bot_token = ":6019015118:AAFLD0oIHeV47_7ceed-cWUVh17baqmfWPI"
 
 USERNAME = "ModerntagBot"
 group = -1001837336703
-startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
+startmesaj = "**Men Qrubunuzdaki üyeleri etiketleyebilen bir botam. Meni Qrubunuza alıb çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
 komutlar = "Komutlar:\n\n/utag -text- Kullanıcıları 5'li etiketlerim.\n/atag -text- Yöneticileri etiketlerim.\n/tektag Üyeleri tek tek etiketlerim.\n/etag - Üyeleri emoji ile etiketlerim.\n/soztag - Üyeleri sözler ile etiketlerim.\n/gisimtag - Üyeleri güzel isimlerle etiketlerim.\n/cancel - Etiket işlemini iptal ederim .\n\nYalnızca yöneticiler bu komutları kullanabilir."
 qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /help yazın."
 sahib = "RiyadAndMe"
